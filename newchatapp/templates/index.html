@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label>Chat Room Name</label>
+            <input type="text" class="form-control" id="room-name" name="room-name" required placeholder="Office Meeting">
+        </div>
+        <button type="submit" class="btn btn-primary" id="enter-room">Create/Join Room</button>
+    </form>
+</div>
+
+<script>
+    
+    const enterRoom = document.getElementById('enter-room');
+    enterRoom.addEventListener('click',(e)=>{
+        e.preventDefault();
+        console.log("hello");
+        const roomName = document.getElementById('room-name').value;
+        location.replace(`http://127.0.0.1:8000/chat/${roomName}/`)
+    });
+</script>
+{% endblock content %}

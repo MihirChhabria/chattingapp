@@ -1,0 +1,18 @@
+
+.adoption-form, .blog-form, .login-form, .register-form{
+    background-color:#EFEFEF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px #888888;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.adoption-form, .blog-form, .login-form, .register-form{
+    font-size: 20px;
+}
+
+.footer{
+    margin-top: 10px;
+    bottom: 0;
+    position: fixed;
+}

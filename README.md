@@ -24,7 +24,7 @@ This application chat platform developed using Django and Django Channels, offer
 * Create/ Join room: `http://127.0.0.1:8000/chat/`
 * Chat room: `http://127.0.0.1:8000/chat/<your_chat_room>/`
 
-## Video link: 
+## Video link: https://youtu.be/jbTYvMHcQxA
 
 ## Screenshots of project
 
